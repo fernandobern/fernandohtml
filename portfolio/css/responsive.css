@@ -1,0 +1,129 @@
+@media screen and (max-width: 800px ) {
+    .container {
+      width: auto;
+    }
+    .mockup1 { 
+      background-image: url("mockup1-2.png");
+      height: 400px;
+      padding-top: 10px;
+      margin-right: 3px;
+      
+    }
+  
+  .card-image {
+      z-index: -500px;
+      display: flex;
+      position: relative;
+      height: 300px;
+    
+      margin-top: 170px;
+      margin-bottom: 120px;
+      transform: rotate(10deg);
+      
+  }
+    
+    .live-panel {
+    display: table-row;
+    margin-top: 90px;
+    background-color: #00ff2a;
+    height: 660px;
+    flex-direction: row;
+    }
+
+    .img-live-panel {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: -130px;
+    }
+    
+    .live-panel h2 {
+    text-align: center;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 65px;  
+    margin-bottom: -125px;
+    }
+
+    .btn2 {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: auto;
+    }
+    .card-image1 {
+      width: 550px;
+      margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 450px ) {
+  .container {
+    
+  }
+  
+  .live-panel {
+    
+    background-color: #fffb21;
+    
+    }
+  
+    .mockup1 { 
+      background-image: url("mockup1-2.png");
+      margin-left: -180px;
+      height: 380px;
+      
+    }
+
+    .card-image {
+      height: 250px;
+
+    }
+
+    .main-frase1 {
+      padding-left: 10px;
+    }
+    
+    .main-frase2 {
+        display: flex;
+        font-size: 117px;
+        justify-content: flex-start;
+    } 
+
+    .conteudo2-text {
+      width:450px;
+  }
+  
+  .conteudo2-text h3 {
+      display: flex;
+      flex-direction: column;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 68px;    
+  }
+  
+  .conteudo2-text h4 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 28px;    
+  }
+  
+  .conteudo2-text p {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 20px;    
+  }
+  
+  .link-client {
+          color: #4c4a50;
+          text-decoration: underline; 
+          margin-bottom: 20px;  
+  }
+  
+  .link-client:hover {
+      color: blanchedalmond;    
+  }
+  }
